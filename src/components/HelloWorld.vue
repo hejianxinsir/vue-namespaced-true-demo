@@ -5,7 +5,7 @@
     moduleA 的 num: {{xxx}}<br>
     <button @click="plus">add 1</button><br>
     调用加了 namespaced: true 模块里的 add 方法：
-    <button @click="oo">模块 + 1</button>
+    <button @click="oo">模块+1</button>
 
     <!--
       重点： 当 store 里的两个同名 add 方法出现时，我们在这个页面
